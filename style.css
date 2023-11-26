@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    margin: 1px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#app {
+    display: flex;
+    position: absolute;
+    background-color: #fcf5e5;
+    height: 80%;
+    max-height: 460px;
+    width: 50%;
+    max-width: 315px;
+    border-style: solid;
+    border-color: black solid;
+    border-radius: 2%;
+    box-shadow: 10px 10px 5px -2px;
+    overflow: hidden;
+}
+
+input {
+    width: 290px;
+    border: none;
+    padding: 24px;
+    margin: 10px;
+    background: transparent;
+    font-size: 50px;
+    text-align: right;
+    cursor: default; /* Disable cursor for the input */
+    z-index: 2; /* Ensure the input is above the buttons */
+    pointer-events: none;
+}
+
+.inside-app {
+    position: absolute;
+    margin-top: 110px;
+    height: 78%;
+    width: 100%;
+    background-color: #b8f3d7;
+    border-radius: 4%;
+    overflow: hidden;
+}
+
+#del, #AC, #percent, #add, #btn7, #btn8, #btn9, #btn4, #subtract, #btn5, #btn6, #multiply, #btn1, #btn2, #btn3, #divide, #btn0, #dot, #eqqual {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    height: 15%;
+    width: 17%;
+    background-color: #fcf5e5;
+    border-radius: 20%;
+    border-style: solid;
+    border-color: black solid;
+    box-shadow: 2px 2px;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    z-index: 1; /* Ensure the buttons are below the input */
+}
+
+/* Rest of your styling... */
+
+
+#AC {
+    margin-top: 20px;
+    margin-left: 9px;
+}
+
+#del{
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+#percent {
+    margin-top: 20px;
+    margin-left: 150px;
+}
+
+#add {
+    margin-top: 20px;
+    margin-left: 220px;
+}
+
+#btn7 {
+    margin-top: 80px;
+    margin-left: 9px;
+}
+
+#btn8 {
+    margin-top: 80px;
+    margin-left: 80px;
+}
+
+#btn9 {
+    margin-top: 80px;
+    margin-left: 150px;
+}
+
+#subtract {
+    margin-top: 80px;
+    margin-left: 220px;
+}
+#btn4 {
+    margin-top: 140px;
+    margin-left: 9px;
+}
+
+#btn5 {
+    margin-top: 140px;
+    margin-left: 80px; 
+}
+#btn6{
+    margin-top: 140px;
+    margin-left: 150px;
+}
+#multiply
+{
+    margin-top: 140px;
+    margin-left: 220px;
+}
+#btn1
+{
+    margin-top: 200px;
+    margin-left: 9px;
+}
+#btn2{
+    margin-top: 200px;
+    margin-left: 80px;
+}
+#btn3
+{
+    margin-top: 200px;
+    margin-left: 150px;
+}
+#divide{
+    margin-top: 200px;
+    margin-left: 220px;
+}
+#btn0{
+    margin-top: 260px;
+    margin-left: 9px;
+    width: 41%;
+    border-radius: 12%;
+}
+#dot{
+    margin-top: 260px;
+    margin-left: 150px;
+}
+#eqqual{
+    margin-top: 260px;
+    margin-left: 220px;
+    
+}
+
+#del:active, #AC:active, #percent:active, #add:active,
+#btn7:active, #btn8:active, #btn9:active, #subtract:active,
+#btn5:active, #btn6:active, #multiply:active, #btn4:active,
+#btn1:active, #btn2:active, #btn3:active, #divide:active,
+#btn0:active, #dot:active, #eqqual:active,
+#del:hover, #AC:hover, #percent:hover, #add:hover,
+#btn7:hover, #btn8:hover, #btn9:hover, #subtract:hover,
+#btn5:hover, #btn6:hover, #multiply:hover, #btn4:hover,
+#btn1:hover, #btn2:hover, #btn3:hover, #divide:hover,
+#btn0:hover, #dot:hover, #eqqual:hover {
+    box-shadow: none;
+    transform: translateY(2px);
+    background-color: #dee0df;
+    ;
+}
+
+#del, #AC, #percent, #add,
+#btn7, #btn8, #btn9, #subtract,
+#btn5, #btn6, #multiply,
+#btn1, #btn2, #btn3, #divide,
+#btn0, #dot, #eqqual {
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+
+
