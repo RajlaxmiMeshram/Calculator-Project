@@ -5,23 +5,43 @@ let string = "";
 let arr = Array.from(buttons);
 
 arr.forEach(button => {
-    button.addEventListener('click', (e) => {
-        if (e.target.id == "eqqual") {
+    button.addEventListener('click', (e) =>
+        {
+        
+        if (e.target.id == "eqqual")
+        {
             string = eval(string);
             input.value = string;
-        } else if (e.target.id == 'AC') {
+        } 
+
+            
+        else if (e.target.id == 'AC') 
+        {
             input.value = "";
             string = "";
-        } else if (e.target.id == 'del') {
+        } 
+
+            
+        else if (e.target.id == 'del') 
+        {
             input.value = input.value.slice(0, -1);
             string = input.value;
-        } else if (e.target.id == 'percent') {
+        } 
+
+            
+        else if (e.target.id == 'percent') 
+        {
             // Calculate percentage directly
             string = (eval(string) / 100).toString();
             input.value = string;
-        } else {
+        } 
+
+            
+        else 
+        {
             string += e.target.innerHTML;
             input.value = string;
         }
+            
     });
 });
