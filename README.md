@@ -1,5 +1,10 @@
 # Calculator-Project
 This is a simple calculator web application built using HTML, CSS, and JavaScript.
+<p>
+  
+<img src="https://github.com/RajlaxmiMeshram/Calculator-Project/blob/main/image/calculatorGif.gif" alt="calculator" width="288" height="550" ></img>
+</p>
+
 ## Getting Started
 ### Prerequisites
 Make sure you have a web browser installed on your device.
