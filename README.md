@@ -7,7 +7,7 @@ This is a simple calculator web application built using HTML, CSS, and JavaScrip
 Make sure you have a web browser installed on your device.
 ### Installation
 1. Clone the repository to your local machine:</br>
-```` git clone https://github.com/your-username/calculator-project.git ````
+```` https://github.com/RajlaxmiMeshram/Calculator-Project.git ````
 2. Run the project.
 3. Open http://localhost:3000 with your browser to see the result.
 ### Features
