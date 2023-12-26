@@ -2,15 +2,14 @@
 This is a simple calculator web application built using HTML, CSS, and JavaScript.
 <p>
   
-
-
 ## Getting Started
 ### Prerequisites
 Make sure you have a web browser installed on your device.
 ### Installation
 1. Clone the repository to your local machine:</br>
-```` git clone https://github.com/your-username/calculator-project.git ```` 
-2. Open the ' index.html ' file in your preferred web browser.
+```` git clone https://github.com/your-username/calculator-project.git ````
+2. Run the project.
+3. Open http://localhost:3000 with your browser to see the result.
 ### Features
 - Basic arithmetic operations: addition, subtraction, multiplication, division.
 - Percentage calculation.
